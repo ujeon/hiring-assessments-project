@@ -1,9 +1,18 @@
 let axios = require("axios");
 
 module.exports = {
+  // getAllUsersData: async () => {
+  //   let result = await axios
+  //     .get("https://koreanjson.com/users")
+  //     .then(response => response.data)
+  //     .catch(error => console.log(error));
+
+  //   return result;
+  // },
+
   getAllUsersData: async () => {
     let result = await axios
-      .get("https://koreanjson.com/users")
+      .get("http://localhost:3001/users")
       .then(response => response.data)
       .catch(error => console.log(error));
 

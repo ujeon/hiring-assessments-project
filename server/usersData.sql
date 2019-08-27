@@ -1,0 +1,2 @@
+-- DROP DATABASE usersData;
+CREATE DATABASE usersData;

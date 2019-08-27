@@ -1,11 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import User from "./User";
-import UserProfile from "./UserProfile";
 
 const Users = props => {
-  // console.log(props);
+  console.log(props);
   let renderList = props.userList.map(li => {
     return (
       <User

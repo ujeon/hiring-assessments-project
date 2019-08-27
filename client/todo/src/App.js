@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Home from "./Home";
-import Users from "./Users";
-import UserProfile from "./UserProfile";
-import Todos from "./Todos";
+import Users from "./User/Users";
+import UserProfile from "./User/UserProfile";
+import Todos from "./Todo/Todos";
 
 const DataRequest = require("./DataRequest");
 

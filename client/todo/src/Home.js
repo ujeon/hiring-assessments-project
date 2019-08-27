@@ -1,7 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-
-import Users from "./Users";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
