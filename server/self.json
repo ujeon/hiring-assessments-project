@@ -1,0 +1,14 @@
+{
+  "json": "2",
+  "setting": "0",
+  "run": "1",
+  "readme": "1",
+  "secret": "0",
+  "controller": "1",
+  "router": "1",
+  "docs": "0",
+  "data": "0",
+  "db": "2",
+  "env": "0",
+  "git": "0"
+}
